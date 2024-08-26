@@ -1,0 +1,85 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo da barra de tarefas */
+.taskbar {
+    background-color: #007BFF;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.taskbar-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.taskbar-nav li {
+    margin: 0 15px;
+}
+
+.taskbar-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.taskbar-nav a:hover {
+    color: #ffdd57;
+}
+
+#negative-ballance-form {
+    display: none;
+    
+}
+
+#new-negative-ballance-btn{
+    background-color: #007BFF;
+    color: #fff;
+    margin-top: 200px;
+    margin-left: 860px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+#negative-ballance-form-form {
+    margin-top: 30px;
+    padding: 30px;
+    margin-left: 600px;
+    margin-right: 600px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#save-negative-ballance-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#save-negative-ballance-btn:hover {
+    background-color: #3e8e41;
+}
+
+
+
+
